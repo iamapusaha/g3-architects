@@ -10,7 +10,7 @@ body {
 .container {
     margin: 0 auto;
     width: 100%;
-    max-width: 1400px;
+    max-width: 1500px;
 }
 
 
@@ -23,6 +23,7 @@ header {
     font-weight: 700;
     font-size: 2.4483133841131663vw;
     margin: 0;
+    color: #131313;
 }
 
 nav {
@@ -41,6 +42,51 @@ nav {
 
 .navbar ul li {
     list-style: none;
-    margin-right: 30px;
+    margin-left: 30px;
 
+}
+
+/* banner styles  */
+.banner {
+    text-align: center;
+}
+
+.banner-info {
+    margin: 0 auto;
+}
+
+.banner-title {
+    font-size: 3.3333333333333335vw;
+    margin-bottom: 10px;
+}
+
+.banner-discription {
+    font-weight: 400;
+    padding: 0 30px;
+    margin-bottom: 32px;
+    color: #727272;
+}
+
+.btn-primary {
+    background-color: #FF900E;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    padding: 20px 25px;
+    color: #FFFFFF;
+    border: none;
+
+
+}
+
+.banner-img {
+    width: 98%;
+    margin: 50px 0 45px 0;
+}
+
+
+.hide {
+    display: none;
 }
