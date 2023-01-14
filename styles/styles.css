@@ -10,7 +10,7 @@ body {
 .container {
     margin: 0 auto;
     width: 100%;
-    max-width: 1500px;
+    max-width: 1440px;
 }
 
 
@@ -70,15 +70,13 @@ nav {
 .btn-primary {
     background-color: #FF900E;
     border-radius: 8px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 23px;
     text-align: center;
     padding: 20px 25px;
     color: #FFFFFF;
     border: none;
-
-
 }
 
 .banner-img {
@@ -86,6 +84,54 @@ nav {
     margin: 50px 0 45px 0;
 }
 
+/* quick-list features  styles  */
+.quick-list {
+    display: flex;
+    padding: 85px 0;
+    gap: 73px;
+    align-items: center;
+
+
+}
+
+
+.quick-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.quick-image img {
+    width: 342px;
+    height: 342px;
+    border-radius: 8px;
+}
+
+.quick-title .dark {
+    color: #727272;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.quick-title .black {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.quick-title .orange {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+
+.quick-discription {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+
+}
 
 .hide {
     display: none;
