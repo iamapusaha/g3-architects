@@ -203,6 +203,55 @@ nav {
     text-overflow: ellipsis; */
 }
 
+/* facts achievment section styles  */
+.facts {
+    padding: 60px 10px;
+}
+
+.fact-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin: 0;
+}
+
+.fact-discription {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding-bottom: 100px;
+}
+
+.fact-achievement {
+    display: flex;
+    justify-content: space-between;
+}
+
+.achievment-box {
+    text-align: center;
+    padding: 45px 36px 60px 36px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
+}
+
+.achievment-box:hover {
+    transform: rotate(180deg);
+}
+
+.achievment-title {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    margin: 0;
+}
+
+.achievment-discription {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
 
 
 
