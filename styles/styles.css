@@ -102,9 +102,15 @@ nav {
 }
 
 .quick-image img {
-    width: 342px;
-    height: 342px;
-    border-radius: 8px;
+    width: 100%;
+    max-width: 342px;
+    height: auto;
+}
+
+.quick-info {
+    width: 100%;
+    max-width: 537px;
+    flex: 1;
 }
 
 .quick-title .dark {
@@ -132,6 +138,73 @@ nav {
     color: #727272;
 
 }
+
+/* Features section  */
+.features {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* gap: 49px; */
+    padding: 45px 0;
+}
+
+.features-info {
+    width: 100%;
+    max-width: 591px;
+    flex: 1;
+
+}
+
+
+
+.features-img img {
+    max-width: 708px;
+    width: 100%;
+    height: 982px;
+}
+
+.features-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    margin: 0;
+    padding-bottom: 24px;
+}
+
+.features-discription {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.card {
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px 42px 30px 30px;
+    margin-top: 20px;
+}
+
+.card-tilte {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin: 0;
+}
+
+.card-discription {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+}
+
+
+
 
 .hide {
     display: none;
