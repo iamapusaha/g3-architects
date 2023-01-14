@@ -90,6 +90,7 @@ nav {
     padding: 85px 0;
     gap: 73px;
     align-items: center;
+    padding: 0 10px;
 
 
 }
@@ -155,12 +156,33 @@ nav {
 
 }
 
-
+.features-img {
+    position: relative;
+}
 
 .features-img img {
     max-width: 708px;
     width: 100%;
-    height: 982px;
+    height: autox;
+}
+
+.btn-experience {
+    font-weight: 700;
+    font-size: 3.6458333333333335vw;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    padding: 45px 42px;
+    position: absolute;
+    left: -92px;
+    bottom: -77px;
+}
+
+.btn-experience .small-text {
+    font-weight: 500;
+    font-size: 25px;
+    margin: 0;
 }
 
 .features-title {
@@ -194,13 +216,14 @@ nav {
     margin: 0;
 }
 
+
 .card-discription {
     font-weight: 400;
     font-size: 16px;
     color: #727272;
-    /* white-space: nowrap;
+    white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis; */
+    text-overflow: ellipsis;
 }
 
 /* facts achievment section styles  */
@@ -232,8 +255,8 @@ nav {
     padding: 45px 36px 60px 36px;
     border: 1px solid #FF900E;
     border-radius: 8px;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 
 .achievment-box:hover {
@@ -280,6 +303,8 @@ nav {
 }
 
 .sponsors-company img {
+    width: 100%;
+    max-width: 120px;
     filter: grayscale(100%);
 }
 
