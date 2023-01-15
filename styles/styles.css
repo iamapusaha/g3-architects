@@ -342,7 +342,7 @@ nav {
 
 .address {
     font-weight: 500;
-    font-size: 30px;
+    font-size: 1.5625vw;
     color: #131313;
     padding: 10px 0;
     margin: 0;
@@ -413,6 +413,10 @@ footer {
 
     .navbar ul li {
         margin: 0;
+    }
+
+    .logo h2 {
+        font-size: 30px;
     }
 
     .quick-list {
