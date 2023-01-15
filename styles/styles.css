@@ -91,7 +91,7 @@ nav {
     padding: 85px 0;
     gap: 73px;
     align-items: center;
-    padding: 0 10px;
+    padding: 85px 10px 0px 10px;
 
 
 }
@@ -147,7 +147,7 @@ nav {
     align-items: flex-start;
     justify-content: space-between;
     /* gap: 49px; */
-    padding: 45px 10px;
+    padding: 132px 10px 0px 10px;
 }
 
 .features-info {
@@ -230,7 +230,7 @@ nav {
 /* facts achievment section styles  */
 
 .some-facts {
-    padding: 60px 10px;
+    padding: 150px 10px 0px 10px;
 }
 
 .fact-title {
@@ -281,7 +281,7 @@ nav {
 /* Our Sponsors sectio styles  */
 .sponsors {
     text-align: center;
-    padding: 100px 10px;
+    padding: 180px 10px 0px 10px;
 }
 
 .sponsors-title {
@@ -312,7 +312,7 @@ nav {
 
 /* contact section  */
 .contact {
-    padding: 100px 10px;
+    padding: 130px 10px 130px 10px;
 }
 
 .contact-info {
@@ -389,6 +389,7 @@ textarea {
 footer {
     background-color: #FFF4E7;
     border-radius: 8px;
+
 }
 
 .footer-title {
@@ -421,6 +422,7 @@ footer {
 
     .quick-list {
         flex-direction: column;
+
     }
 
     .features {
