@@ -417,6 +417,15 @@ footer {
     .quick-list {
         flex-direction: column;
     }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .btn-experience {
+        left: 30%;
+        bottom: -5%;
+    }
 }
 
 .hide {
