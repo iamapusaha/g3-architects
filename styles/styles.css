@@ -90,7 +90,7 @@ nav {
     padding: 85px 0;
     gap: 73px;
     align-items: center;
-    padding: 0 10px;
+    /* padding: 0 10px; */
 
 
 }
@@ -227,7 +227,8 @@ nav {
 }
 
 /* facts achievment section styles  */
-.facts {
+
+.some-facts {
     padding: 60px 10px;
 }
 
@@ -252,7 +253,7 @@ nav {
 
 .achievment-box {
     text-align: center;
-    padding: 45px 36px 60px 36px;
+    padding: 45px 30px 45px 30px;
     border: 1px solid #FF900E;
     border-radius: 8px;
     width: 150px;
@@ -260,7 +261,7 @@ nav {
 }
 
 .achievment-box:hover {
-    transform: rotate(180deg);
+    transform: rotate(90deg);
 }
 
 .achievment-title {
@@ -310,7 +311,7 @@ nav {
 
 /* contact section  */
 .contact {
-    padding: 100px 10px;
+    padding: 100px 0px;
 }
 
 .contact-info {
