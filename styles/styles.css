@@ -22,7 +22,6 @@ header {
 .logo h2 {
     font-weight: 700;
     font-size: 2.4483133841131663vw;
-    /* font-size: 45px; */
     margin: 0;
     color: #131313;
 }
@@ -176,7 +175,7 @@ nav {
     border: none;
     padding: 45px 42px;
     position: absolute;
-    left: -92px;
+    left: -30px;
     bottom: -77px;
 }
 
@@ -402,6 +401,8 @@ footer {
 
 /* break point styles  */
 @media screen and (max-width:576px) {
+
+    /* header section responsive styles  */
     nav {
         flex-direction: column;
         align-items: center;
@@ -420,9 +421,15 @@ footer {
         font-size: 30px;
     }
 
+    /* quick-list features responsive style */
+
     .quick-list {
         flex-direction: column;
 
+    }
+
+    .quick-image {
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .features {
@@ -434,22 +441,22 @@ footer {
         bottom: -5%;
     }
 
+    /* facts achievment section responsive styles */
     .fact-achievement {
         flex-direction: column;
         row-gap: 15px;
         align-items: center;
     }
 
+    /* Our Sponsors sectio responsive styles */
+
     .sponsors-company {
         flex-direction: column;
         row-gap: 30px;
     }
 
+    /* contact sectio responsive style  */
     .contact-info {
         flex-direction: column;
     }
-}
-
-.hide {
-    display: none;
 }
