@@ -423,8 +423,14 @@ footer {
     }
 
     .btn-experience {
-        left: 30%;
+        left: 20px;
         bottom: -5%;
+    }
+
+    .fact-achievement {
+        flex-direction: column;
+        row-gap: 15px;
+        align-items: center;
     }
 }
 
