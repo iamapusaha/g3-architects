@@ -22,6 +22,7 @@ header {
 .logo h2 {
     font-weight: 700;
     font-size: 2.4483133841131663vw;
+    /* font-size: 45px; */
     margin: 0;
     color: #131313;
 }
@@ -280,7 +281,7 @@ nav {
 /* Our Sponsors sectio styles  */
 .sponsors {
     text-align: center;
-    padding: 100px 0;
+    padding: 100px 10px;
 }
 
 .sponsors-title {
@@ -431,6 +432,11 @@ footer {
         flex-direction: column;
         row-gap: 15px;
         align-items: center;
+    }
+
+    .sponsors-company {
+        flex-direction: column;
+        row-gap: 30px;
     }
 }
 
